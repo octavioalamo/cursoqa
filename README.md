@@ -1,0 +1,2 @@
+# cursoqa
+ Curso QA Socratech
