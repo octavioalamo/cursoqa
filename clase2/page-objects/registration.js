@@ -7,6 +7,7 @@ module.exports = {
         passwordInputBox: by.name('password'),
         password2InputBox: by.name('password2'),
         signUpButton: by.css('.btn'),
-        alert: by.css('.alert')
+        alert: by.css('.alert'),
+        invalidFeedback: by.css('.invalid-feedback')
     },
 }
