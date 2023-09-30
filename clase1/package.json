@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "node main.js"
+  },
+  "dependencies": {
+    "chromedriver": "^117.0.3",
+    "geckodriver": "^4.2.1",
+    "selenium-webdriver": "^4.13.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
