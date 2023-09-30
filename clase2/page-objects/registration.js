@@ -6,6 +6,7 @@ module.exports = {
         lastnameInputBox: by.name('lastName'),
         passwordInputBox: by.name('password'),
         password2InputBox: by.name('password2'),
-        captcha: by.css('.recaptcha-checkbox-border')
+        signUpButton: by.css('.btn'),
+        alert: by.css('.alert')
     },
 }
