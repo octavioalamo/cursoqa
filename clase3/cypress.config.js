@@ -2,6 +2,9 @@ const { defineConfig } = require("cypress");
 const { Client } = require('pg')
 
 module.exports = defineConfig({
+  env: {
+    FRONT_URL :'http://localhost:3000'
+  },
   e2e: {
     setupNodeEvents(on, config) {
       on("task", {

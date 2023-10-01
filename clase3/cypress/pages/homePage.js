@@ -7,7 +7,7 @@ class homePage {
     }
     
     open(){
-        cy.visit('http://localhost:3000')
+        cy.visit(Cypress.env('FRONT_URL'))
     }
 }
 
